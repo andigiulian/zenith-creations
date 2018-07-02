@@ -1,0 +1,29 @@
+body {
+	background-color: #000;
+}
+
+p {
+	margin-bottom: 0;
+}
+
+.company {
+	font-weight: bold; 
+	text-transform: uppercase;
+}
+
+.img-thumbnail {
+	background-color: #000;
+	border: none;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.work-offered, .company {
+	font-size: 12px;
+}
+
+
+/************************************
+	MEDIA QUERIES
+************************************/
+

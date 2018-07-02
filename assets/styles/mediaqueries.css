@@ -1,0 +1,34 @@
+/************************************
+	MEDIA QUERIES
+************************************/
+
+@media screen and (max-width: 415px) {
+	.navbar-brand {
+		margin-left: 33%;
+	}
+
+	#creations-nav, #creations-foot {
+		font-size: 23px;
+	}
+
+	#zenith-foot {
+		font-size: 35px;
+	}
+
+	#zenith-nav {
+		font-size: 35px;
+		margin-bottom: -40px;
+	}
+}
+
+@media screen and (max-width: 359px) {
+	.navbar-brand {
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.footer-right, .footer-left {
+		display: none;
+	}
+}

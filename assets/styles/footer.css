@@ -1,0 +1,42 @@
+/************************************
+	FOOTER
+************************************/
+
+.fab {
+	background-color: #202020;
+	border-radius: 50%;
+	padding: 7px;
+}
+
+.footer-custom {
+	background-color: #252525;
+}
+
+.footer-custom,
+.footer-custom div ul li a {
+	color: #929292;
+}
+
+.footer-left .navbar-nav .nav-item .nav-link {
+	padding-left: 0;
+}
+
+#creations-foot {
+	font-size: 25px;
+}
+
+#creations-foot, #zenith-foot {
+	display: block;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#logo {
+	margin: auto;
+}
+
+#zenith-foot {
+	font-size: 40px;
+	margin-bottom: -15px;
+}

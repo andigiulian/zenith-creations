@@ -1,0 +1,143 @@
+/************************************
+	NAVBAR
+************************************/
+
+.navbar-custom {
+	background-color: #000;
+}
+
+
+/************************************
+	SLIDESHOW & PARAGRAPHS
+************************************/
+
+p {
+	margin-bottom: 0;
+}
+
+.custom-container {
+	background-color: #000;
+	color: #fff;
+	margin: 0 auto;
+	padding: 70px;
+	text-align: center;
+}
+
+.custom-container .container a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+
+/************************************
+	CAPABILITIES
+************************************/
+
+h2 {
+	padding: 100px 0 45px;
+}
+
+h2, .container-fluid {
+	text-align: center;
+}
+
+.col-md-4 {
+	/*height: 500px;*/
+	height: 25rem;
+	padding-top: 150px;
+}
+
+#brand-strategy {
+	background-image: url(../images/homepage_brandstrategy-identity.jpg);
+}
+
+#video {
+	background-image: url(../images/homepage_videophotography.jpg);
+}
+
+#website {
+	background-image: url(../images/homepage_website-digital.jpg);
+}
+
+#brand-strategy, #video, #website {
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+	color: #fff;
+}
+
+
+/************************************
+	VIEW OUR WORK
+************************************/
+
+.center {
+	text-align: center;
+}
+
+.company {
+	font-weight: bold; 
+	text-transform: uppercase;
+}
+
+.container .center a {
+	background-color: #00a2ff;
+	border: #00a2ff;
+	font-size: 12px;
+	margin: 40px;
+	outline: none;
+	text-transform: uppercase;
+}
+
+.container .center a:hover {
+	background-color: #fff;
+	border: #fff;
+	color: #00a2ff;
+}
+
+.img-thumbnail {
+	border: none;
+	margin-bottom: 10px;
+}
+
+.work-offered, .company {
+	font-size: 12px;
+}
+
+
+/************************************
+	MEDIA QUERIES
+************************************/
+
+@media screen and (max-width: 415px) {
+	h2 {
+		font-size: 26px;
+	}
+
+	.col-md-4 {
+		height: 200px;
+		padding-top: 90px;
+	}
+
+	.custom-container .container p:nth-of-type(3n) {
+		margin-bottom: 25px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.col-md-4 {
+		height: 200px;
+		padding-top: 90px;
+	}
+
+	.custom-container .container p:nth-of-type(3n) {
+		margin-bottom: 35px;
+	}
+}
+
+@media screen and (max-width: 1178px) {
+	.col-md-4 {
+		height: 20rem;
+		padding-top: 150px;
+	}
+}

@@ -1,0 +1,22 @@
+h1 {
+	margin: 70px 0 50px;
+}
+
+h1, p {
+	color: #fff;
+	text-align: center;
+}
+
+.btn-primary {
+	background-color: #00a2ff;
+	margin: 10px 30px 50px;
+}
+
+.center {
+	text-align: center;
+}
+
+.custom-container {
+	margin-top: 50px;
+	padding: 20px;
+}
