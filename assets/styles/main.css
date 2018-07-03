@@ -18,8 +18,9 @@ p {
 .custom-container {
 	background-color: #000;
 	color: #fff;
+	font-size: 24px;
 	margin: 0 auto;
-	padding: 70px;
+	padding: 70px 10px;
 	text-align: center;
 }
 
@@ -34,7 +35,8 @@ p {
 ************************************/
 
 h2 {
-	padding: 100px 0 45px;
+	font-size: 28px;
+	padding: 150px 0 45px;
 }
 
 h2, .container-fluid {
@@ -42,9 +44,8 @@ h2, .container-fluid {
 }
 
 .col-md-4 {
-	/*height: 500px;*/
-	height: 25rem;
-	padding-top: 150px;
+	height: 30rem;
+	padding-top: 220px;
 }
 
 #brand-strategy {
@@ -72,6 +73,7 @@ h2, .container-fluid {
 ************************************/
 
 .center {
+	margin-bottom: 100px;
 	text-align: center;
 }
 
@@ -81,18 +83,21 @@ h2, .container-fluid {
 }
 
 .container .center a {
-	background-color: #00a2ff;
-	border: #00a2ff;
+	background-color: #fff;
+	border: 5px solid #000;
+	color: #000;
 	font-size: 12px;
+	font-weight: bold;
 	margin: 40px;
 	outline: none;
+	padding-top: 10px;
 	text-transform: uppercase;
 }
 
 .container .center a:hover {
-	background-color: #fff;
-	border: #fff;
-	color: #00a2ff;
+	background-color: #ff6c00;
+	border: 5px solid #ff6c00;
+	color: #fff;
 }
 
 .img-thumbnail {
@@ -101,7 +106,7 @@ h2, .container-fluid {
 }
 
 .work-offered, .company {
-	font-size: 12px;
+	font-size: 15px;
 }
 
 
@@ -121,6 +126,10 @@ h2, .container-fluid {
 
 	.custom-container .container p:nth-of-type(3n) {
 		margin-bottom: 25px;
+	}
+
+	.custom-container {
+		font-size: 14px;
 	}
 }
 
