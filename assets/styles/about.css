@@ -1,14 +1,19 @@
-h1 {
-	margin: 70px 0 50px;
+footer p {
+	color: #929292;
 }
 
-h1, p {
+h1 {
+	color: #fff;
+	margin: 70px 0 50px;
+	text-align: center;
+}
+
+p {
 	color: #fff;
 	text-align: center;
 }
 
 .btn-primary {
-	background-color: #00a2ff;
 	margin: 10px 30px 50px;
 }
 
@@ -16,7 +21,15 @@ h1, p {
 	text-align: center;
 }
 
+.container {
+	text-align: center;
+}
+
 .custom-container {
 	margin-top: 50px;
-	padding: 20px;
+	padding: 20px 50px;
+}
+
+.zenith-logo {
+	margin: 70px 0 60px;
 }
