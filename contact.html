@@ -17,7 +17,7 @@
 
 	<nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
 		<div class="container">
-			<a class="navbar-brand" href="#"><span id="zenith-nav">ZENITH</span><span id="creations-nav">CREATIONS</span></a>
+			<a class="navbar-brand" href="#"><img src="assets/images/zenith-logo-white.png" width="150" alt=""></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -45,53 +45,66 @@
 
 	<div class="container">
 		<h2>Contact</h2>
-		<form action="contact_submit" method="post" accept-charset="utf-8">
-			<div class="form-group">
-				<label for="inputName">Your Name (required)</label>
-				<input type="name" id="inputName" class="form-control">
+		<div class="row">
+			<div class="col-md-6">
+				<form action="contact_submit" method="post" accept-charset="utf-8">
+					<div class="form-group">
+						<label for="inputName">Your Name (required)</label>
+						<input type="name" id="inputName" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="inputEmail">Your Email (required)</label>
+						<input type="email" id="inputEmail" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="inputCompany">Company</label>
+						<input type="name" id="inputCompany" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="message">Message</label>
+						<textarea type="text" id="message" class="form-control"></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
 			</div>
-			<div class="form-group">
-				<label for="inputEmail">Your Email (required)</label>
-				<input type="email" id="inputEmail" class="form-control">
+			<div class="col-md-5">
+				<p>No matter your business scale, type, or need, we all have the common goal of establishing something great. We work with projects of all shapes and sizes to help you achieve what you need. Start a conversation with us today and see how we can help.</p>
+				<p>Email: info@xxxx.com</p>
+				<p>Phone: (xxx) xxx-xxxx</p>
 			</div>
-			<div class="form-group">
-				<label for="inputCompany">Company</label>
-				<input type="name" id="inputCompany" class="form-control">
-			</div>
-			<div class="form-group">
-				<label for="message">Message</label>
-				<textarea type="text" id="message" class="form-control"></textarea>
-			</div>
-			<button type="submit" class="btn btn-primary">Submit</button>
-		</form>
+		</div>
+		
+		
 	</div>
 
 
 	<footer class="navbar navbar-expand-lg footer-custom">
 		<div class="footer-left">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a href="" class="nav-link">Contact Us</a></li>
+				<li class="nav-item"><a href="#" class="nav-link ">Contact Us</a></li>
 				<li class="nav-item"><a href="" class="nav-link"><i class="fab fa-facebook-square"></i></a></li>
 				<li class="nav-item"><a href="" class="nav-link"><i class="fab fa-twitter"></i></a></li>
 				<li class="nav-item"><a href="" class="nav-link"><i class="fab fa-instagram"></i></a></li>
 				<li class="nav-item"><a href="" class="nav-link"><i class="fab fa-vimeo-v"></i></a></li>
 			</ul>
-			<p id="copyright">Copyright &copy; Zenith Creations All rights reserved</p>
 		</div>
-		<div id="logo">
-			<span id="zenith-foot">Zenith</span>
-			<span id="creations-foot">Creations</span>
+
+		<div class="mx-auto justify-content-between" id="logo">
+			<img src="assets/images/zenith-logo-grey.png" width="150" alt="">
 		</div>
+		
 		<div class="footer-right">
-			<ul class="navbar-nav mr-auto">
+			<ul class="navbar-nav mr-auto justify-content-end">
 				<li class="nav-item"><a href="" class="nav-link">Privacy Policy</a></li>
 				<li class="nav-item"><a href="" class="nav-link">Terms & Conditions</a></li>
 			</ul>
+			<p id="copyright">Copyright &copy; Zenith Creations All rights reserved</p>
 		</div>
 	</footer>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	<!-- <script type="text/javascript" src="assets/scripts/script.js"></script> -->
 </body>
 </html>
