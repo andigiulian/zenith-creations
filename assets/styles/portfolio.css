@@ -1,7 +1,3 @@
-body {
-	background-color: #000;
-}
-
 p {
 	margin-bottom: 0;
 }
@@ -11,6 +7,27 @@ p {
 	text-transform: uppercase;
 }
 
+.container ul {
+	padding: 90px 0 20px;
+}
+
+.container ul .list-inline-item a {
+	color: #fff;
+}
+
+.container ul .list-inline-item a:hover {
+	color: #ff6c00;
+	text-decoration: none;
+}
+
+.container ul .list-inline-item .active {
+	color: #ff6c00;
+}
+
+.container .navbar-nav {
+	padding: 0;
+}
+
 .img-thumbnail {
 	background-color: #000;
 	border: none;
@@ -18,8 +35,12 @@ p {
 	margin-bottom: 10px;
 }
 
+.main {
+	margin-bottom: 50px;
+}
+
 .work-offered, .company {
-	font-size: 12px;
+	font-size: 15px;
 }
 
 
