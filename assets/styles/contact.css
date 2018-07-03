@@ -29,3 +29,7 @@ footer p {
 .container {
 	padding-bottom: 50px;
 }
+
+.container p {
+	font-family: 'Times New Roman', serif;
+}
