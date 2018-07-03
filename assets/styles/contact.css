@@ -1,7 +1,31 @@
-input {
-	color: #252525;
+h2 {
+	color: #fff;
+	padding: 90px 0 50px;
+	text-align: center;
 }
 
-label {
+input[type="name"],
+input[type="email"],
+textarea[type="text"] {
+	background-color: #252525;
 	color: #fff;
+}
+
+input[type="name"]:focus,
+input[type="email"]:focus,
+textarea[type="text"]:focus {
+	background-color: #252525;
+	color: #fff;
+}
+
+label, p {
+	color: #fff;
+}
+
+footer p {
+	color: #929292;
+}
+
+.container {
+	padding-bottom: 50px;
 }
