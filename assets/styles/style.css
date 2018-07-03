@@ -2,3 +2,12 @@ body {
 	background-color: #000;
 }
 
+.btn-primary {
+	background-color: #000;
+	border: 5px solid #fff;
+}
+
+.btn-primary:hover {
+	background-color: #ff6c00;
+	border: 5px solid #ff6c00;
+}
