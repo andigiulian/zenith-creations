@@ -7,7 +7,7 @@
 	src: url(fonts/AvenirLTStd-Roman.otf);
 }
 
-h2, .company, .container .center a, .navbar-brand,
+h2, .company, .container .center a, .feedback-container, .navbar-brand,
 .navbar-custom .nav-link, #creations-foot, #zenith-foot,
 #brand-strategy, #video, #website {
 	font-family: 'Avenir', sans-serif;
