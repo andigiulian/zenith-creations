@@ -3,7 +3,7 @@
 ************************************/
 
 .navbar-custom {
-	background-color: #000;
+	background-color: #111;
 }
 
 
@@ -16,7 +16,7 @@ p {
 }
 
 .custom-container {
-	background-color: #000;
+	background-color: #111;
 	color: #fff;
 	font-size: 24px;
 	margin: 0 auto;
@@ -84,7 +84,7 @@ h2, .container-fluid {
 
 .container .center a {
 	background-color: #fff;
-	border: 5px solid #000;
+	border: 3px solid #111;
 	color: #000;
 	font-size: 12px;
 	font-weight: bold;
@@ -96,7 +96,7 @@ h2, .container-fluid {
 
 .container .center a:hover {
 	background-color: #ff6c00;
-	border: 5px solid #ff6c00;
+	border: 3px solid #ff6c00;
 	color: #fff;
 }
 

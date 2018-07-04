@@ -1,17 +1,29 @@
 body {
-	background-color: #000;
+	background-color: #111;
+}
+
+footer p {
+	color: #929292;
 }
 
 .btn-primary {
-	background-color: #000;
-	border: 5px solid #fff;
+	background-color: #111;
+	border: 3px solid #fff;
 	color: #fff;
+	text-transform: uppercase;
 }
 
 .btn-primary:hover {
 	background-color: #ff6c00;
-	border: 5px solid #ff6c00;
+	border: 3px solid #ff6c00;
 	color: #fff;
+}
+
+.img-thumbnail {
+	background-color: #111;
+	border: none;
+	color: #fff;
+	margin-bottom: 10px;
 }
 
 .navbar .container {
