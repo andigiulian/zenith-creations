@@ -48,16 +48,20 @@ h2, .container-fluid {
 	padding-top: 220px;
 }
 
+.col-md-4:hover {
+	text-decoration: none;
+}
+
 #brand-strategy {
-	background-image: url(../images/homepage_brandstrategy-identity.jpg);
+	background-image: url(../images/homepage/homepage_brandstrategy-identity.jpg);
 }
 
 #video {
-	background-image: url(../images/homepage_videophotography.jpg);
+	background-image: url(../images/homepage/homepage_videophotography.jpg);
 }
 
 #website {
-	background-image: url(../images/homepage_website-digital.jpg);
+	background-image: url(../images/homepage/homepage_website-digital.jpg);
 }
 
 #brand-strategy, #video, #website {
