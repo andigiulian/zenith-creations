@@ -1,0 +1,65 @@
+h1 {
+	margin-bottom: 70px;
+	text-transform: uppercase;
+}
+
+h3 {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.btn-primary {
+	background-color: #fff;
+	border: 3px solid #000;
+	color: #000;
+}
+
+.center {
+	text-align: center;
+}
+
+.container-fluid {
+	background-color: #fff;
+	padding: 70px 0;
+}
+
+.container-fluid .row {
+	margin-bottom: 70px;
+}
+
+.container-custom {
+	background-color: #fff;
+}
+
+.cover-logo {
+	margin-bottom: 70px;
+}
+
+.cover-photo {
+	background-image: url(../images/case-study-ramendictorian/cover-photo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+	color: #fff;
+	height: 50rem;
+	padding-top: 150px;
+	text-align: center;
+}
+
+.gray {
+	color: #929292;
+}
+
+.header {
+	padding: 70px 0;
+}
+
+.header p {
+	margin: 0;
+}
+
+.strategy {
+	color: #fff;
+	margin: 70px auto;
+	text-align: center;
+}
