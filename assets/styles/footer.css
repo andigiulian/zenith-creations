@@ -10,9 +10,40 @@
 
 .footer-custom {
 	background-color: #252525;
+	padding-bottom: 20px;
+	padding-top: 15px;
 }
 
 .footer-custom,
 .footer-custom div ul li a {
 	color: #929292;
+}
+
+.footer-custom .order-md-2 {
+	text-align: center;
+}
+
+.footer-hide:last-of-type {
+	margin-right: 0;
+}
+
+.footer-legal {
+	list-style: none;
+	padding-right: 0;
+	text-align: right;
+}
+
+.footer-social {
+	list-style: none;
+}
+
+.footer-legal a:hover,
+.footer-social a:hover {
+	text-decoration: none;
+}
+
+.footer-legal li,
+.footer-social li {
+	display: inline-block;
+	margin-right: 15px;
 }
