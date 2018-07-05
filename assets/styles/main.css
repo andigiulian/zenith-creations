@@ -48,7 +48,7 @@ h2, .container-fluid {
 	padding-top: 220px;
 }
 
-.col-md-4:hover {
+.row a:hover {
 	text-decoration: none;
 }
 
@@ -96,6 +96,10 @@ h2, .container-fluid {
 	outline: none;
 	padding-top: 10px;
 	text-transform: uppercase;
+}
+
+.container .row a {
+	color: #000;
 }
 
 .container .center a:hover {
