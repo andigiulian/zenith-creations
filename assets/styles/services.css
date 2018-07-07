@@ -38,11 +38,12 @@ hr {
 	width: 20px;
 }
 
-.col-md-4 {
-	/*border: 1px solid red;*/
+.col-xs-6 {
+	width: 50%
 }
 
 .company {
+	color: #fff;
     text-transform: uppercase;
 }
 
@@ -113,14 +114,16 @@ hr {
     margin-bottom: 0;
 }
 
-.col-xs-6 {
-	width: 50%
-}
+
+
 
 
 /************************************
 	MEDIA QUERIES
 ************************************/
+
+
+
 
 @media screen and (max-width: 415px) {
 	
