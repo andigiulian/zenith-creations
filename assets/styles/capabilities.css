@@ -33,6 +33,10 @@ h2, p {
 	background-color: #252525;
 }
 
+.navbar .container {
+	text-align: left;
+}
+
 .row {
 	padding: 0 15px;
 }
