@@ -23,6 +23,12 @@ label, p {
 	color: #fff;
 }
 
+.footer-custom {
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+}
+
 footer p {
 	color: #929292;
 }
@@ -33,4 +39,20 @@ footer p {
 
 .container p {
 	font-family: 'Times New Roman', serif;
+}
+
+
+/************************************
+	MEDIA QUERIES
+************************************/
+
+@media screen and (max-width: 415px) {
+
+	.col-md-5 {
+		margin-top: 50px;
+	}
+
+	.footer-custom {
+		position: static;
+	}
 }
