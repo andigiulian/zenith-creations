@@ -70,6 +70,10 @@ hr {
 	margin-left: 30px;
 }
 
+.img-mobile {
+	display: none;
+}
+
 .img-right {
 	margin-left: -30px;
 }
@@ -107,4 +111,42 @@ hr {
 .work-offered {
     color: #929292;
     margin-bottom: 0;
+}
+
+.col-xs-6 {
+	width: 50%
+}
+
+
+/************************************
+	MEDIA QUERIES
+************************************/
+
+@media screen and (max-width: 415px) {
+	
+	.img-full {
+		display: none;
+	}
+
+	.img-mobile {
+		display: block;
+	}
+
+	.img-left,
+	.img-right {
+		margin: 0;
+	}
+
+	.order-md-1 {
+		text-align: center;
+	}
+
+	.row .order-md-2 {
+		display: none;
+	}
+
+	.process h4,
+	.process p {
+		text-align: center;
+	}
 }

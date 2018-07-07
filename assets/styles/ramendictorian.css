@@ -76,3 +76,39 @@ h3 {
 	margin: 70px auto;
 	text-align: center;
 }
+
+
+/************************************
+	MEDIA QUERIES
+************************************/
+
+@media screen and (max-width: 415px) {
+
+	h1 {
+		font-size: 2rem;
+	}
+
+	.col-xs-6 {
+		width: 50%;
+	}
+
+	.photography-img {
+		margin-bottom: -30px;
+	}
+
+	.row {
+		text-align: center;
+	}
+
+	.row-2 {
+		margin-top: -70px;
+	}
+
+	.website {
+		margin-top: -60px;
+	}
+
+	.website-full {
+		display: none;
+	}
+}

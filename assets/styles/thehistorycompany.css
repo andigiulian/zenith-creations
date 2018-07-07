@@ -32,7 +32,7 @@ h3 {
 }
 
 .container-fluid .row {
-	margin-bottom: 70px;
+	margin-bottom: 50px;
 }
 
 .container-custom {
@@ -41,6 +41,7 @@ h3 {
 
 .cover-logo {
 	margin-bottom: 70px;
+	width: 60rem;
 }
 
 .cover-photo {
@@ -66,6 +67,10 @@ h3 {
 	margin: 0;
 }
 
+.img-row {
+	margin-top: -20px;
+}
+
 .img-thumbnail {
 	background-color: #fff;
 	border: none;
@@ -76,3 +81,33 @@ h3 {
 	margin: 70px auto;
 	text-align: center;
 }
+
+/************************************
+	MEDIA QUERIES
+************************************/
+
+@media screen and (max-width: 415px) {
+	h1 {
+		font-size: 2rem;
+	}
+
+	h2 {
+		font-size: 20px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	.cover-photo {
+		height: 42rem;
+	}
+
+	.row {
+		text-align: center;
+	}
+}
+/*
+@media screen and (max-width: 504px) {
+	h1, h2 {
+		font-size: 1rem;
+	}
+}*/
