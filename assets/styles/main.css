@@ -44,8 +44,19 @@ h2, .container-fluid {
 }
 
 .col-md-4 {
+	display: table;
 	height: 30rem;
-	padding-top: 220px;
+}
+
+.col-md-4 h4 {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.col-md-4 p {
+	display: table-row;
+	font-size: 20px;
+	vertical-align: middle;
 }
 
 .row a:hover {
