@@ -68,7 +68,7 @@ footer p {
 }
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
 
 	.footer-hide:last-of-type {
 		margin-right: 0;
