@@ -1,6 +1,10 @@
+footer p {
+	color: #929292;
+}
+
 h2 {
 	color: #fff;
-	padding: 90px 0 50px;
+	margin: 70px 0 50px;
 	text-align: center;
 }
 
@@ -23,18 +27,8 @@ label, p {
 	color: #fff;
 }
 
-.footer-custom {
-	bottom: 0;
-	position: absolute;
-	width: 100%;
-}
-
-footer p {
-	color: #929292;
-}
-
-.container {
-	padding-bottom: 50px;
+.col-md-5 {
+	margin: 50px 0 30px;
 }
 
 .container p {
@@ -42,17 +36,25 @@ footer p {
 }
 
 
-/************************************
-	MEDIA QUERIES
-************************************/
-
-@media screen and (max-width: 415px) {
+@media screen and (min-width: 768px) {
 
 	.col-md-5 {
-		margin-top: 50px;
+		margin: 0;
 	}
 
-	.footer-custom {
-		position: static;
+	.col-md-6 {
+		margin-bottom: 30px;
 	}
+
+}
+
+
+@media screen and (min-width: 992px) {
+
+	.footer-custom {
+		bottom: 0;
+		position: absolute;
+		width: 100%;
+	}
+
 }
