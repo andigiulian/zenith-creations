@@ -5,11 +5,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Zenith Creations</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/styles/lib/bootstrap.css">
+	<link rel="stylesheet" href="assets/styles/lib/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="assets/styles/lib/bootstrap-reboot.min.css">
 	<link rel="stylesheet" href="assets/styles/toggles.css">
 	<link rel="stylesheet" href="assets/styles/header.css">
 	<link rel="stylesheet" href="assets/styles/footer.css">
-	<link rel="stylesheet" href="assets/styles/mediaqueries.css">
 	<link rel="stylesheet" href="assets/styles/style.css">
 	<link rel="stylesheet" href="assets/styles/portfolio.css">
 </head>
@@ -50,32 +51,34 @@
 
 	<div class="container">
 		<ul class="portfolio-nav">
-			<li class="list-inline-item"><a href="" class="active">All</a></li>
-			<li class="list-inline-item"><a href="">Video/Photography</a></li>
-			<li class="list-inline-item"><a href="">Website & Digital Platforms</a></li>
-			<li class="list-inline-item"><a href="">Brand Strategy & Graphics</a></li>
+			<li class="list-inline-item portfolio-all"><a href="#" class="portfolio-item active">All</a></li>
+			<div class="portfolio-container">
+				<li class="list-inline-item portfolio-list-item"><a href="#" class="portfolio-item">Video/Photography</a></li>
+				<li class="list-inline-item portfolio-list-item"><a href="#" class="portfolio-item">Website & Digital Platforms</a></li>
+				<li class="list-inline-item portfolio-list-item"><a href="#" class="portfolio-item">Brand Strategy & Graphics</a></li>
+			</div>
 		</ul>
 	</div>
 
 
 	<div class="container main">
 		<div class="row">
-			<div class="col-md-6 img-thumbnail">
+			<a href="casestudy-thehistorycompany.html" class="col-md-6 img-thumbnail portfolio-item-all portfolio-item-video/photography portfolio-item-website">
 				<img class="img-fluid" src="assets/images/museum-5.png" alt="">
 				<p class="work-offered">Case Study</p>
 				<p class="company">The History Company</p>
-			</div>
-			<div class="col-md-6 img-thumbnail">
+			</a>
+			<div class="col-md-6 img-thumbnail portfolio-item-all portfolio-item-video/photography">
 				<img class="img-fluid" src="assets/images/pwc-thumb.png" alt="">
 				<p class="work-offered">3D Animation</p>
 				<p class="company">PwC</p>
 			</div>
-			<div class="col-md-6 img-thumbnail">
+			<a href="casestudy-ramendictorian.html" class="col-md-6 img-thumbnail brand portfolio-item-all portfolio-item-website portfolio-item-brand">
 				<img class="img-fluid" src="assets/images/ramendictorian-front-page.png" alt="">
 				<p class="work-offered">Case Study</p>
 				<p class="company">Ramendictorian</p>
-			</div>
-			<div class="col-md-6 img-thumbnail">
+			</a>
+			<div class="col-md-6 img-thumbnail brand portfolio-item-all portfolio-item-website portfolio-item-brand">
 				<img class="img-fluid" src="assets/images/logo-business-card.png" alt="">
 				<p class="work-offered">Logo Design</p>
 				<p class="company">Guardian Hog Ad Agency</p>
@@ -86,11 +89,11 @@
 
 	<footer class="navbar navbar-expand-lg footer-custom">
 		
-		<div class="mx-auto justify-content-between order-md-2" id="logo">
+		<div class="mx-auto justify-content-between order-lg-2" id="logo">
 			<img src="assets/images/logo/zenith-logo-grey.png" width="150" alt="">
 		</div>
 
-		<div class="footer-left order-md-1">
+		<div class="footer-left order-lg-1">
 			<ul class="footer-social ml-auto">
 				<li class="footer-hide"><a href="contact.html" class="">Contact Us</a></li>
 				<li class=""><a href="" class=""><i class="fab fa-facebook-square"></i></a></li>
@@ -100,7 +103,7 @@
 			</ul>
 		</div>
 		
-		<div class="footer-right order-md-3">
+		<div class="footer-right order-lg-3">
 			<ul class="footer-legal mr-auto justify-content-end">
 				<li class="footer-hide"><a href="" class="">Privacy Policy</a></li>
 				<li class="footer-hide"><a href="" class="">Terms & Conditions</a></li>
@@ -109,9 +112,10 @@
 		</div>
 	</footer>
 
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/scripts/lib/jquery-3.3.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="assets/scripts/script.js"></script>
+	<script type="text/javascript" src="assets/scripts/portfolio.js"></script>
 </body>
 </html>

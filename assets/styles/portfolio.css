@@ -1,14 +1,27 @@
 p {
 	margin-bottom: 0;
 }
+body {
+	/*background-color: #ddd;*/
+}
 
 .company {
 	font-weight: bold; 
 	text-transform: uppercase;
 }
 
+.portfolio-list-item {
+	list-style: none;
+	margin-top: 10px;
+}
+
+.portfolio-container,
+.portfolio-list-item {
+	display: none;
+}
+
 .portfolio-nav {
-	padding: 90px 0 20px;
+	padding: 50px 0 20px;
 }
 
 .container ul .list-inline-item a {
@@ -37,7 +50,10 @@ p {
 }
 
 
-/************************************
-	MEDIA QUERIES
-************************************/
-
+@media screen and (min-width: 768px) {
+	
+	.portfolio-container,
+	.portfolio-list-item {
+		display: inline-block;
+	}
+}
