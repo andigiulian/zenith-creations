@@ -1,15 +1,26 @@
+body {
+	text-align: center;
+}
+
 h1 {
-	margin-bottom: 70px;
+	font-size: 1.5rem;
+	line-height: 36px;
+	margin: 50px auto;
 	text-transform: uppercase;
 }
 
-h2, p {
+h2 {
 	font-family: 'Times New Roman', serif;
+	font-size: 1.3rem;
+	margin: 50px auto;
 }
 
 h3 {
-	margin-bottom: 30px;
-	text-align: center;
+	margin: 20px auto;
+}
+
+p {
+	font-family: 'Times New Roman', serif;
 }
 
 .btn-primary {
@@ -20,27 +31,32 @@ h3 {
 
 .business {
 	font-family: 'Avenir', sans-serif;
+	margin: 0;
 }
 
-.center {
-	text-align: center;
+.business:first-of-type {
+	margin-top: 40px;
+}
+
+.col-md-4:first-of-type {
+	margin-top: 20px;
+}
+
+.col-xs-6 {
+	width: 50%;
 }
 
 .container-fluid {
 	background-color: #fff;
-	padding: 70px 0;
-}
-
-.container-fluid .row {
-	margin-bottom: 70px;
+	padding: 10px 10px 30px;
 }
 
 .container-custom {
 	background-color: #fff;
 }
 
-.cover-logo {
-	margin-bottom: 70px;
+.container-custom .container {
+	padding-bottom: 20px;
 }
 
 .cover-photo {
@@ -49,21 +65,12 @@ h3 {
 	background-size: cover;
 	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
 	color: #fff;
-	height: 50rem;
-	padding-top: 150px;
-	text-align: center;
+	padding: 5px 0;
 }
 
 .gray {
 	color: #929292;
-}
-
-.header {
-	padding: 70px 0;
-}
-
-.header p {
-	margin: 0;
+	margin-bottom: 20px;
 }
 
 .img-thumbnail {
@@ -71,44 +78,96 @@ h3 {
 	border: none;
 }
 
-.strategy {
-	color: #fff;
-	margin: 70px auto;
-	text-align: center;
+.navbar {
+	text-align: left;
 }
 
+.row-2 {
+	margin-bottom: 20px;
+	margin-top: -20px;
+}
 
-/************************************
-	MEDIA QUERIES
-************************************/
+.strategy {
+	color: #fff;
+	padding: 10px 10px 30px;
+}
 
-@media screen and (max-width: 415px) {
+.web-design {
+	display: block;
+}
 
+.website-full {
+	display: none;
+}
+
+@media screen and (min-width: 425px) {
+	
 	h1 {
-		font-size: 2rem;
+		line-height: 40px;
 	}
 
-	.col-xs-6 {
-		width: 50%;
+	h2 {
+		margin-left: 20px;
+		margin-right: 20px;
 	}
 
-	.photography-img {
-		margin-bottom: -30px;
+	.web-design {
+		display: inline-block;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	h1 {
+		font-size: 1.7rem;
 	}
 
-	.row {
-		text-align: center;
+	h2 {
+		font-size: 1.5rem;
 	}
 
-	.row-2 {
-		margin-top: -70px;
+	.business:first-of-type {
+		margin-top: 0;
 	}
 
-	.website {
-		margin-top: -60px;
+	.col-md-3 {
+		margin-top: 70px;
+	}
+
+	.col-md-4:first-of-type {
+		margin-top: 0;
+	}
+
+	.container-custom .container {
+		padding-top: 30px;
+		text-align: left;
+	}
+
+	.row-1 {
+		margin-bottom: 30px;
+		margin-top: 30px;
 	}
 
 	.website-full {
-		display: none;
+		display: block;
+		margin-top: 10%;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.col-md-3 {
+		margin-top: 0;
+	}
+
+	.row {
+		margin-bottom: 50px;
+		margin-top: 30px;
+	}
+
+	.row-1 {
+		margin-bottom: 0;
+	}
+
+	.website-full {
+		margin-top: 0;
 	}
 }
