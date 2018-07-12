@@ -1,23 +1,24 @@
+footer p {
+	color: #929292;
+}
+
 h2 {
+	color: #fff;
 	margin: 70px 0 30px;
 }
 
-h2, p {
+p {
 	color: #fff;
 }
 
 .btn-primary {
 	font-weight: bold;
 	margin: 10px 0 20px;
-	padding: 10px 50px;
+	padding: 10px 30px;
 }
 
 .center {
 	margin: 30px 0 60px;
-}
-
-.col-md-4 {
-	padding: 0
 }
 
 .col-md-12 {
@@ -37,24 +38,32 @@ h2, p {
 	text-align: left;
 }
 
-.row {
-	padding: 0 15px;
-}
 
-#col-pad {
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
+@media screen and (min-width: 768px){
 
-/************************************
-	MEDIA QUERIES
-************************************/
-
-
-@media screen and (max-width: 415px) {
-
-	.row {
-		padding: 0;
+	.col-md-4 {
+		padding: 0
 	}
 
+	.row {
+		padding: 0 15px;
+	}
+
+	.text-box {
+		height: 243px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+
+	.text-box {
+		height: 195px;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+
+	.text-box {
+		height: 170px;
+	}
 }
