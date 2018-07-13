@@ -4,7 +4,7 @@ footer p {
 
 h2 {
 	color: #fff;
-	margin: 70px 0 30px;
+	margin: 70px 0 0;
 }
 
 p {
@@ -15,6 +15,17 @@ p {
 	font-weight: bold;
 	margin: 10px 0 20px;
 	padding: 10px 30px;
+}
+
+.capabilities-title {
+	background-color: #fff;
+	color: #000;
+	display: inline-block;
+	margin: 0;
+	padding: 10px;
+	position: relative;
+	text-transform: uppercase;
+	top: 100px;
 }
 
 .center {
@@ -39,7 +50,28 @@ p {
 }
 
 
+@media screen and (min-width: 375px) {
+
+	.capabilities-title {
+		top: 120px;
+	}
+}
+
+@media screen and (min-width: 425px) {
+
+	.capabilities-title {
+		top: 130px;
+	}
+}
+
 @media screen and (min-width: 768px){
+
+	.capabilities-title {
+		font-size: 0.8rem;
+		font-weight: bold;
+		padding: 9px;
+		top: 80px;
+	}	
 
 	.col-md-4 {
 		padding: 0
@@ -54,7 +86,11 @@ p {
 	}
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
+	
+	.capabilities-title {
+		top: 105px;
+	}
 
 	.text-box {
 		height: 195px;
@@ -62,6 +98,11 @@ p {
 }
 
 @media screen and (min-width: 1440px) {
+
+	.capabilities-title {
+		font-size: 1rem;
+		top: 125px;
+	}	
 
 	.text-box {
 		height: 170px;
