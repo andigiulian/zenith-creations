@@ -64,14 +64,6 @@ p {
 	margin-bottom: 10px;
 }
 
-.navbar-brand {
-	margin-left: 33%;
-}
-
-.navbar-brand img {
-	width: 100px;
-}
-
 .navbar-custom {
 	background-color: #111;
 }
@@ -120,19 +112,11 @@ p {
 	.col-md-4 {
 		height: 10rem;
 	}
-
-	.navbar-brand {
-		margin-left: 34%;
-	}
 }
 
 @media screen and (min-width: 425px) {
 	.col-md-4 {
 		height: 11rem;
-	}
-
-	.navbar-brand {
-		margin-left: 37%;
 	}
 }
 
@@ -144,14 +128,6 @@ p {
 
 	.col-md-4 {
 		height: 13rem;
-	}
-
-	.navbar-brand {
-		margin-left: 41.5%;
-	}
-
-	.navbar-brand img {
-		width: 120px;
 	}
 }
 
@@ -172,14 +148,6 @@ p {
 
 	.custom-container {
 		padding: 60px 20px;
-	}
-
-	.navbar-brand {
-		margin-left: 0;
-	}
-
-	.navbar-brand img {
-		width: 150px;
 	}
 }
 

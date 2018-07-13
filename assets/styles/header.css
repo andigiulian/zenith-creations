@@ -2,6 +2,14 @@
 	NAVBAR
 ************************************/
 
+.navbar-brand {
+	margin-left: 33%;
+}
+
+.navbar-brand img {
+	width: 100px;
+}
+
 .navbar-custom {
 	background-color: #252525;
 }
@@ -11,7 +19,32 @@
 }
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 375px) {
+
+	.navbar-brand {
+		margin-left: 34%;
+	}
+}
+
+@media screen and (min-width: 425px) {
+
+	.navbar-brand {
+		margin-left: 37%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	
+	.navbar-brand {
+		margin-left: 41.5%;
+	}
+
+	.navbar-brand img {
+		width: 120px;
+	}
+}
+
+@media screen and (min-width: 992px) {
 
 	ul li ul {
 		display: none;
@@ -45,6 +78,20 @@
 		background-color: #252525;
 		color: #ff6c00;
 	}
+
+	.navbar-brand {
+		margin-left: 0;
+	}
+
+	.navbar-brand img {
+		width: 150px;
+	}
+}
+
+
+@media screen and (min-width: 1024px) {
+
+
 }
 
 /*.navbar-custom .collapse .navbar-nav .nav-item .nav-link {
