@@ -1,3 +1,13 @@
+function handleFirstTab(e) {
+    if (e.keyCode === 9) {
+        document.body.classList.add('user-is-tabbing');
+        window.removeEventListener('keydown', handleFirstTab);
+    }
+}
+
+window.addEventListener('keydown', handleFirstTab);
+
+
 $('#navbarDropdown').click(function() {
     var location = $(this).attr('href');
     window.location.href = location;
@@ -5,7 +15,8 @@ $('#navbarDropdown').click(function() {
 });
 
 $('.carousel').carousel({
-	interval: 3000
+	interval: 5000,
+	pause: false
 });
 
 
