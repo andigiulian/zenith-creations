@@ -17,6 +17,10 @@ p {
 	text-align: center;
 }
 
+.custom-container p {
+	font-size: 1.1rem;
+}
+
 .logo-container {
 	margin: 60px auto;
 	text-align: center;
@@ -34,10 +38,14 @@ p {
 }
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
 
 	.custom-container {
 		margin-top: 50px;
 		padding: 20px 50px;
+	}
+
+	.custom-container p {
+		font-size: 1.2rem;
 	}
 }
