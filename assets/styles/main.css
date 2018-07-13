@@ -1,122 +1,62 @@
-/************************************
-	NAVBAR
-************************************/
-
-.navbar-custom {
-	background-color: #111;
+a:hover {
+	text-decoration: none;
 }
 
+h2 {
+	font-size: 1.7rem;
+	padding: 70px 0 20px;
+	text-align: center;
+}
 
-/************************************
-	SLIDESHOW & PARAGRAPHS
-************************************/
+h4 {
+	font-size: 1.2rem;
+	margin-top: 21%;
+	text-align: center;
+}
 
 p {
 	margin-bottom: 0;
 }
 
-.custom-container {
-	background-color: #111;
+.btn-primary {
+	background-color: #fff;
+	border: 3px solid #000;
+	color: #000;
+	font-size: 0.7rem;
+	text-transform: uppercase;
+}
+
+.btn-primary:focus,
+.btn-primary:hover {
+	background-color: #ff6c00;
+	border: 3px solid #ff6c00;
 	color: #fff;
-	font-size: 24px;
-	margin: 0 auto;
-	padding: 70px 10px;
-	text-align: center;
 }
 
-.custom-container .container a {
-	color: #fff;
-	text-decoration: underline;
-}
-
-
-/************************************
-	CAPABILITIES
-************************************/
-
-h2 {
-	font-size: 28px;
-	padding: 150px 0 45px;
-}
-
-h2, .container-fluid {
+.center {
+	margin: 40px 0;
 	text-align: center;
 }
 
 .col-md-4 {
-	display: table;
-	height: 30rem;
-}
-
-.col-md-4 h4 {
-	display: table-cell;
-	vertical-align: middle;
-}
-
-.col-md-4 p {
-	display: table-row;
-	font-size: 20px;
-	vertical-align: middle;
-}
-
-.row a:hover {
-	text-decoration: none;
-}
-
-#brand-strategy {
-	background-image: url(../images/homepage/homepage_brandstrategy-identity.jpg);
-}
-
-#video {
-	background-image: url(../images/homepage/homepage_videophotography.jpg);
-}
-
-#website {
-	background-image: url(../images/homepage/homepage_website-digital.jpg);
-}
-
-#brand-strategy, #video, #website {
-	background-repeat: no-repeat;
-	background-size: cover;
-	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
-	color: #fff;
-}
-
-
-/************************************
-	VIEW OUR WORK
-************************************/
-
-.center {
-	margin-bottom: 100px;
-	text-align: center;
+	height: 9rem;
 }
 
 .company {
+	color: #000;
 	font-weight: bold; 
 	text-transform: uppercase;
 }
 
-.container .center a {
-	background-color: #fff;
-	border: 3px solid #111;
-	color: #000;
-	font-size: 12px;
-	font-weight: bold;
-	margin: 40px;
-	outline: none;
-	padding-top: 10px;
-	text-transform: uppercase;
-}
-
-.container .row a {
-	color: #000;
-}
-
-.container .center a:hover {
-	background-color: #ff6c00;
-	border: 3px solid #ff6c00;
+.custom-container a {
 	color: #fff;
+}
+
+.custom-container {
+	background-color: #111;
+	color: #fff;
+	padding: 40px 20px;
+	text-align: center;
 }
 
 .img-thumbnail {
@@ -124,49 +64,160 @@ h2, .container-fluid {
 	margin-bottom: 10px;
 }
 
+.navbar-brand {
+	margin-left: 33%;
+}
+
+.navbar-brand img {
+	width: 100px;
+}
+
+.navbar-custom {
+	background-color: #111;
+}
+
+.work-offered,
+.work-offered:focus,
+.work-offered:hover {
+	color: #929292;
+}
+
 .work-offered, .company {
-	font-size: 15px;
+	font-size: 0.8rem;
+}
+
+#brand-strategy {
+	background-image: url(../images/homepage/homepage_brandstrategy-identity.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+	color: #fff;
+}
+
+#copyright {
+	font-size: 14px;
+}
+
+#video {
+	background-image: url(../images/homepage/homepage_videophotography.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+	color: #fff;
+}
+
+#website {
+	background-image: url(../images/homepage/homepage_website-digital.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+	color: #fff;
 }
 
 
-/************************************
-	MEDIA QUERIES
-************************************/
+@media screen and (min-width: 375px) {
 
-@media screen and (max-width: 415px) {
-	h2 {
-		font-size: 26px;
+	.col-md-4 {
+		height: 10rem;
+	}
+
+	.navbar-brand {
+		margin-left: 34%;
+	}
+}
+
+@media screen and (min-width: 425px) {
+	.col-md-4 {
+		height: 11rem;
+	}
+
+	.navbar-brand {
+		margin-left: 37%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	
+	h4 {
+		margin-top: 40%;
 	}
 
 	.col-md-4 {
-		height: 200px;
-		padding-top: 90px;
+		height: 13rem;
 	}
 
-	.custom-container .container p:nth-of-type(3n) {
-		margin-bottom: 25px;
+	.navbar-brand {
+		margin-left: 41.5%;
+	}
+
+	.navbar-brand img {
+		width: 120px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+
+	h4 {
+		margin-top: 36%;
+	}
+
+	p,
+	.custom-container a {
+		font-size: 1.2rem;
+	}
+
+	.col-md-4 {
+		height: 15rem;
 	}
 
 	.custom-container {
-		font-size: 14px;
+		padding: 60px 20px;
 	}
 
-}
-
-@media screen and (max-width: 991px) {
-	.col-md-4 {
-		height: 200px;
-		padding-top: 90px;
+	.navbar-brand {
+		margin-left: 0;
 	}
 
-	.custom-container .container p:nth-of-type(3n) {
-		margin-bottom: 35px;
+	.navbar-brand img {
+		width: 150px;
 	}
 }
 
-@media screen and (max-width: 1178px) {
+@media screen and (min-width: 1275px) {
+
+	h2 {
+		padding: 90px 0 30px;
+	}
+
 	.col-md-4 {
 		height: 20rem;
-		padding-top: 150px;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+
+	p,
+	.custom-container a {
+		font-size: 1.3rem;
+	}
+}
+
+@media screen and (min-width: 1650px) {
+
+	h2 {
+		font-size: 1.9rem;
+	}
+
+	h4 {
+		font-size: 1.4rem;
+	}
+
+	p,
+	.custom-container a {
+		font-size: 1.5rem;
+	}
+
+	.col-md-4 {
+		height: 30rem;
 	}
 }
